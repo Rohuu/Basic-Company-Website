@@ -94,6 +94,52 @@
             </div>
         </div>
     </section>
+
+    <!-- section: contact -->
+
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="emial" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Phone Number</label>
+                    <input type="number" name="mobile" id="mobile" placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!-- footer -->
+
+    <footer id="main-footer" class="bg-dark text-center">
+        <div class="container">
+            <p>Copyright &copy; 2022, EdgeLedger, All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrjTonbUBKZ2QAMFNQ1KddYaek1MzDtxw&callback=initMap">
+        </script>
+
+
 </body>
 
 </html>

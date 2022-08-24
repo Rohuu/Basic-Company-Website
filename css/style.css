@@ -131,6 +131,11 @@ p {
     border-radius: 3px;
 }
 
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
 .btn:hover {
     background-color: #93cb52;
 }
@@ -147,6 +152,11 @@ p {
 
 .bg-dark {
     background-color: #333;
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #93cb52;
     color: #fff;
 }
 
@@ -222,4 +232,49 @@ p {
     display: block;
     margin: auto;
     width: 60%;
+}
+
+/* section  */
+
+#contact {
+    display: flex;
+}
+
+
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .map {
+    flex: 1.5;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.6rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#contact .contact-form textarea {
+    height: 80px;
+}
+
+#contact .contact-form .btn {
+    width: 96%;
+    margin-left: 10px;
+}
+
+
+/* footer */
+
+#main-footer {
+    padding: 0.5rem 0;
 }
